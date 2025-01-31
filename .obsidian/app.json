@@ -1,0 +1,18 @@
+{
+  "trashOption": "none",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./attachments",
+  "showUnsupportedFiles": true,
+  "showInlineTitle": true,
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

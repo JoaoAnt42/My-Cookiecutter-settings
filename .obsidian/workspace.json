@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep Work/CIH/CIH.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CIH"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b649541cdf609e8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d067f60ebab01ae2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83e096fa4e6c40f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a7f11124fb0dbb38",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "94ed535a28595e7c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Deep Work/Captova/Captova.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Captova"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8f9af993cb547831",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d11324311143d989",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a811893f69541934",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "f33459d87556ae01",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Deep Work/CIH/CIH.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CIH"
+            }
+          },
+          {
+            "id": "14322d3011c84a21",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 202.5
+  },
+  "right": {
+    "id": "96a4c862b440f145",
+    "type": "split",
+    "children": [
+      {
+        "id": "87a8ca03a3924ba9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f226b340226e115f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "zk-prefixer:Create new unique note": false,
+      "daily-notes:Open today's daily note": false,
+      "homepage:Open homepage": false,
+      "size-history:Vault size history": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "HomePage.md",
+    "Deep Work/CIH/CIH.md",
+    "Deep Work/CIH/CIH past TODO.md",
+    "Bridge 351.md",
+    "Daily/KCS IT - PWC.md",
+    "Deep Work/CIH/Roberto.md",
+    "Deep Work/CIH/SAO team.md",
+    "Deep Work/CIH/updating python versions.md",
+    "Deep Work/CIH/Multi card crawler.md",
+    "Deep Work/CIH/Creating a new telegram Folder.md",
+    "Deep Work/TTR/TTR.md",
+    "Deep Work/TTR/Deep Review Crawlers.md",
+    "Skills/DevSkills/Poetry.md",
+    "Affirmations.md",
+    "Deep Work/CIH/Empresa JLA.md",
+    "Deep Work/Captova/Abrir empresa.md",
+    "Deep Work/CIH/ruff.md",
+    "Work Meet.md",
+    "Deep Work/Deep Work.md",
+    "Productivity.md",
+    "CIH next steps.md",
+    "Deep Work/CIH/teleport.md",
+    "Deep Work/CIH/Wireguard CIH.md",
+    "Ubuntu.md",
+    "Unit Catalog.md",
+    "Untitled 1.md",
+    "Deep Work/CIH/attachments/Pasted image 20240305115854.png",
+    "Skills/attachments/Science of Sleep.png",
+    "Deep Work/attachments/Deep Work.png",
+    "Deep Work/CIH/attachments/Pasted image 20240213153059.png",
+    "Deep Work/Captova/attachments/Screenshot_20241014_125214.png",
+    "attachments/Screenshot_20241004_162240.png",
+    "attachments/Screenshot_20241004_161859.png",
+    "Pub",
+    "Deep Work/Captova/attachments/Pasted image 20241001112513.png",
+    "Deep Work/Captova/attachments/Pasted image 20241001112351.png",
+    "Deep Work/Captova/attachments/Pasted image 20240927212130.png",
+    "templates",
+    "Daily",
+    "attachments",
+    "API check online",
+    "API check online ",
+    "Untitled",
+    "Deep Work/Captova/attachments",
+    "Deep Work/CIH/attachments",
+    "Skills/Addictions"
+  ]
+}

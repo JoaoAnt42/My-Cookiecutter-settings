@@ -1,0 +1,129 @@
+# Enable fix behavior by default
+fix = true
+unsafe-fixes = true
+
+# Same as Black.
+line-length = 88
+indent-width = 4
+
+# Common virtual environment patterns to exclude
+extend-exclude = [".venv", "venv", "env", ".env", "migrations"]
+
+# Target Python 3.8
+target-version = "py38"
+
+[format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+docstring-code-format = true
+
+[lint]
+select = [
+    "E",   # pycodestyle
+    "F",   # pyflakes
+    "I",   # isort
+    "C",   # complexity
+    "B",   # flake8-bugbear
+    "D",   # pydocstyle
+    "UP",  # pyupgrade
+    "N",   # pep8-naming
+    "SIM", # simplify
+    "RUF", # ruff-specific rules
+    "PL",  # pylint
+    "PTH", # use pathlib
+    "RET", # return statements
+    "SLF", # private member access
+    "TCH", # type-checking blocks
+    "TID", # tidy imports
+    "ERA", # eradicate commented code
+    "PD",  # pandas
+    "ARG", # unused arguments
+    "PGH", # pygrep
+    "DJ",  # django
+    "TRY", # tryceratops
+    "COM", # flake8-commas
+    "CPY", # copyright
+    "DTZ", # datetime-z
+    "EM",  # flake8-errmsg
+    "EXE", # flake8-executable
+    "FBT", # boolean-trap
+    "ICN", # flake8-import-conventions
+    "INP", # flake8-no-pep420
+    "ISC", # flake8-implicit-str-concat
+    "NPY", # NumPy-specific rules
+    "PYI", # flake8-pyi
+    "Q",   # flake8-quotes
+    "RSE", # flake8-raise
+    "S",   # flake8-bandit
+    "T20", # flake8-print
+    "PIE", # flake8-pie
+    "PT",  # pytest
+    "YTT", # flake8-2020
+]
+
+ignore = [
+    "D100", # Missing docstring in public module
+    "D104", # Missing docstring in public package
+    "D203", # 1 blank line required before class docstring
+    "D213", # Multi-line docstring summary should start at the second line
+    "D415", # First line should end with a period
+    "S101", # Use of assert detected
+    "PLR0913" # Too many arguments to function call
+]
+
+extend-unsafe-fixes = [
+    "RUF007",
+    "B007",   # Loop control variable not used within loop body
+    "B018",   # Found useless expression
+    "C401",   # Unnecessary generator (rewrite as list comprehension)
+    "C402",   # Unnecessary generator (rewrite as set comprehension)
+    "C403",   # Unnecessary generator (rewrite as dict comprehension)
+    "C404",   # Unnecessary generator (rewrite as list)
+    "C405",   # Unnecessary `list` literal (rewrite as list)
+    "C406",   # Unnecessary `set` literal (rewrite as set)
+    "C408",   # Unnecessary `dict` call (rewrite as literal)
+    "C409",   # Unnecessary `list` call (rewrite as literal)
+    "C410",   # Unnecessary `tuple` call (rewrite as literal)
+    "C411",   # Unnecessary `list` call (rewrite as list)
+    "C413",   # Unnecessary `tuple` call (rewrite as tuple)
+    "C414",   # Unnecessary `list` call (rewrite as list)
+    "C415",   # Unnecessary `dict` call (rewrite as dict)
+    "C416",   # Unnecessary `tuple` call (rewrite as tuple)
+    "UP006",  # Use `list` instead of `List` for annotations
+    "UP007",  # Use `X | Y` for type annotations
+    "UP008",  # Use `X | None` instead of `Optional[X]`
+    "UP009",  # UTF-8 encoding declaration is unnecessary
+    "UP010",  # Unnecessary `__future__` import `annotations`
+    "UP011",  # Use `list[TypeName]` instead of `List[TypeName]`
+    "UP012",  # Use `tuple[TypeName, ...]` instead of `Tuple[TypeName, ...]`
+    "UP013",  # Use `type` instead of `Type`
+    "UP014",  # Use `dict[TypeName, TypeName]` instead of `Dict[TypeName, TypeName]`
+    "UP015",  # Use `set[TypeName]` instead of `Set[TypeName]`
+    "UP018",  # Use `isinstance` instead of `type` for type checks
+    "UP019",  # Use `X | Y` in `isinstance` checks
+    "UP020",  # Use `X | None` in `isinstance` checks
+    "UP021",  # Replace `sys.version[0]` with `sys.version_info[0]`
+    "UP022",  # Replace `sys.version[0:3]` with `sys.version_info[0:3]`
+    "UP023",  # Use `X | Y` in `issubclass` checks
+    "UP024",  # Use `X | None` in `issubclass` checks
+]
+
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+preview = true
+
+[lint.per-file-ignores]
+"__init__.py" = ["F401"]  # Ignore unused imports in __init__.py files
+"test_*.py" = ["S101"]    # Allow assertions in test files
+"conftest.py" = ["S101"]  # Allow assertions in pytest conftest
+
+[lint.mccabe]
+max-complexity = 12
+
+[lint.pydocstyle]
+convention = "google"
+
+[lint.pyupgrade]
+keep-runtime-typing = true
